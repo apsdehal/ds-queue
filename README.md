@@ -12,10 +12,11 @@ A simple queue implementation. Used by [QUnit Migrate](http://github.com/apsdeha
 var Queue = require('dsq');
 var queue = new Queue();
 
-queue.enqueue([1, 2, 3]); // [3, 2, 1]
-queue.enqueue(4); // [4, 3, 2, 1]
-var top = queue.top(); // top == 4; 
-var first = queue.dequeue(); // first == 1, [4, 3, 2]
+queue.enqueue([1, 2, 3]); // [1, 2, 3]
+queue.enqueue(4); // [1, 2, 3, 4]
+var top = queue.top(); // top == 1; 
+var first = queue.dequeue(); // first == 1, [2, 3, 4]
+var dump = queue.dump(); // [2, 3, 4]
 ```
 
 ## License
