@@ -1,0 +1,30 @@
+{
+  "name": "ds-queue",
+  "version": "1.0.0",
+  "description": "Simple Queue Data Structure",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u bdd specs/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apsdehal/ds-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "ds",
+    "data",
+    "structure"
+  ],
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "~2.2.1"
+  },
+
+  "author": "Amanpreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apsdehal/ds-queue/issues"
+  },
+  "homepage": "https://github.com/apsdehal/ds-queue#readme"
+}
