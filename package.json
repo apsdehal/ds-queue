@@ -1,5 +1,5 @@
 {
-  "name": "ds-queue",
+  "name": "dsq",
   "version": "1.0.0",
   "description": "Simple Queue Data Structure",
   "main": "src/index.js",
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/apsdehal/ds-queue.git"
   },
   "keywords": [
+    "q",
     "queue",
     "ds",
     "data",

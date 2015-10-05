@@ -4,12 +4,12 @@ A simple queue implementation. Used by [QUnit Migrate](http://github.com/apsdeha
 
 ## Install
 
-`npm install --save ds-queue`
+`npm install --save dsq`
 
 ## Usage
 
 ```js
-var Queue = require('ds-queue');
+var Queue = require('dsq');
 var queue = new Queue();
 
 queue.enqueue([1, 2, 3]); // [3, 2, 1]
